@@ -1,6 +1,6 @@
 package ch17;
 
-import java.io.FileWriter;
+import java.io.*;
 
 public class Main {
   public static void main(String[] args) {
