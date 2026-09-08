@@ -1,4 +1,4 @@
-package ch11;
+package ch12;
 
 public abstract class Character {
 	  String name;
@@ -6,5 +6,5 @@ public abstract class Character {
 	  public void run() {
 	    System.out.println(this.name + "は逃げ出した");
 	  }
-	  public abstract void attack(Matango m);
+	  public abstract void attack(Monster m);
 	}
